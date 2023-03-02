@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+div {
+    padding: none;
+    margin: none;
+}
+
+.logo {
+    width: 250px;
+}
+
+#home {
+    display: flex;
+    background-color: RGB(20, 20, 20);
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#links {
+    margin: 1%;
+    padding: 0 1%;
+}
+
+.HomeLink {
+    text-decoration: none;
+    color: RGB(42, 250, 246);
+    font-size: 30px;
+    padding: 0 15px;
+    border: 2px RGB(20, 20, 20) solid;
+}
+
+.HomeLink:hover {
+    box-sizing: border-box;
+    border-left: RGB(42, 250, 246) solid 2px;
+    border-right: RGB(42, 250, 246) solid 2px;
+}
+
+#buy {
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
+    border: 5px solid yellow;
+    text-decoration: none;
+    margin: 1%;
+    width: 10%;
+    height: 40px;
+    font-size: 30px;
+}
+
+#series {
+    display: flex;
+    height: 700px;
+    background-color: RGB(255, 247, 0);
+}
+
+#David {
+    height: 700px;
+    margin: 0 5%;
+}
+
+.Back {
+    display: flex;
+    margin: 1% auto;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#LogoEdge {
+    width: 800px;
+    height: 30%;
+    margin: 0 auto;
+}
+
+.Text {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.Video {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#jogo {
+    display: flex;
+    height: 725px;
+    background-color: black;
+}
+
+#jogo > .Back > .Text {
+    color: RGB(42, 250, 246);
+    margin: 0 25px;
+}
+
+#Perso {
+    width: 600px;
+    height: 725px;
+}
+
+#Logo2077 {
+    width: 700px;
+    height: 30%;
+    margin: 0 auto;
+}
+
+#footer {
+    background-color: RGB(42, 250, 246);
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    align-items: center;
+}
+
+.sobretit {
+    margin: 15px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sobretext {
+    font-size: 30px;
+    width: 250px;
+    text-align: center;
+}
